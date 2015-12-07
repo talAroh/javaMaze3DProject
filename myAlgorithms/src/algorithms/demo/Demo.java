@@ -25,7 +25,7 @@ public class Demo {
 	    BFS<Position> bfs = new BFS<Position>();
 	    sol = bfs.search(mts);
 	    //sol.printSol();
-	    System.out.println("BFS:"+bfs.getNumberOfNodesEvaluated());
+	   /* System.out.println("BFS:"+bfs.getNumberOfNodesEvaluated());
 	    Heuristic<Position> hmmd = new MazeManhattenDistance<Position>(goal);
 	    Heuristic<Position> hmad = new MazeAirDistance<Position>(goal);
 	    Astar<Position> astarmanh = new Astar<Position>(hmmd);
@@ -33,7 +33,8 @@ public class Demo {
 	    astarmanh.search(mts);
 	    astarair.search(mts);
 	    System.out.println("Astar manhattan:"+astarmanh.getNumberOfNodesEvaluated());
-	    System.out.println("Astar air:"+astarair.getNumberOfNodesEvaluated());
+	    System.out.println("Astar air:"+astarair.getNumberOfNodesEvaluated());*/
+	    System.out.println("change in demo");
 	      
     }
 	
