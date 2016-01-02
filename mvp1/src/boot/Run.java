@@ -64,7 +64,6 @@ public class Run {
         XMLDecoder xml = new XMLDecoder(new FileInputStream("properties.xml"));
         Properties properties = new Properties();
         properties = (Properties)xml.readObject();
-		//System.out.println(properties.getGenerateAlgorithm()+properties.getSolveAlgorithm()+properties.getThreadsRunning());
 		//m.saveToZipFile("mazeWithSolution.zip");
 		
 		MyModel m = new MyModel(properties.getThreadsRunning());
